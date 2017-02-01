@@ -1,0 +1,17 @@
+package com.ilinq.spongebob.items;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
+public final class ModItems {
+
+	public static Item myItem;
+	public static void createItems(){
+		BasicItem item = new BasicItem();
+		item.setRegistryName("item");
+		item.setCreativeTab(CreativeTabs.FOOD);
+		item.setUnlocalizedName("item");
+		GameRegistry.register( new BasicItem().setRegistryName("item") );
+	}
+}

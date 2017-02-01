@@ -1,0 +1,5 @@
+package com.ilinq.spongebob.items;
+
+public class ItemRenderRegister {
+
+}

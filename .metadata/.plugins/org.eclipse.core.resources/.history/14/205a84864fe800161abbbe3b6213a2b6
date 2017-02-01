@@ -1,0 +1,14 @@
+package com.ilinq.spongebob.items;
+
+import net.minecraft.item.Item;
+
+public class BasicItem extends Item {
+	
+	private static final String ITEM_NAME = "first_item";
+
+	public BasicItem(){ //Remember to register name 
+		super();
+		setUnlocalizedName(ITEM_NAME);
+		}
+	
+}

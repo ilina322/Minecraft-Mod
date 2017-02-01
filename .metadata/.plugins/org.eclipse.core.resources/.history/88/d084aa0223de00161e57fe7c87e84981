@@ -1,0 +1,11 @@
+package com.ilinq.spongebob.items;
+
+import net.minecraft.item.Item;
+
+public final class ModItems {
+
+	public static Item myItem;
+	public static void createItems(){
+		
+	}
+}
